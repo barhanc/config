@@ -1,6 +1,4 @@
 {
-    // Editor
-    "editor.minimap.enabled": false,
     "editor.parameterHints.enabled": false,
     "editor.rulers": [
         100,
@@ -26,9 +24,8 @@
         "strings": false
     },
     "editor.quickSuggestionsDelay": 0,
-    "extensions.ignoreRecommendations": true,
+    "editor.minimap.autohide": true,
     // Python
-    "python.analysis.languageServerMode": "light",
     "black-formatter.args": [
         "--line-length",
         "119"
@@ -66,6 +63,8 @@
         "terminal.ansiWhite": "#d0d0d0",
         "terminal.ansiBrightWhite": "#f5f5f5",
     },
-    "workbench.colorTheme": "Default Dark+",
+    "extensions.ignoreRecommendations": true,
+    "python.analysis.languageServerMode": "light",
     "terminal.integrated.gpuAcceleration": "on",
+    "workbench.colorTheme": "Default Dark+",
 }
