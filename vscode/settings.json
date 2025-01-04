@@ -8,7 +8,12 @@
     "editor.fontLigatures": true,
     "editor.accessibilitySupport": "off",
     "editor.unicodeHighlight.allowedCharacters": {
-        "σ": true
+        "α": true,  "β": true, "γ": true, "Γ": true,  "δ": true, "Δ": true, "ϵ": true,  "ε": true,
+        "ζ": true,  "η": true, "θ": true, "ϑ": true,  "Θ": true, "ι": true, "κ": true,  "ϰ": true,
+        "λ": true,  "Λ": true, "μ": true, "ν": false, "ξ": true, "Ξ": true, "ο": false, "π": true, 
+        "ϖ": true,  "Π": true, "ρ": true, "ϱ": true,  "σ": true, "Σ": true, "ς": true,  "τ": true, 
+        "υ": false, "ϕ": true, "φ": true, "Φ": true,  "χ": true, "ψ": true, "Ψ": true,  "ω": true,
+        "Ω": true,
     },
     "editor.formatOnSave": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -30,11 +35,12 @@
         "--line-length",
         "119"
     ],
-    // C
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    // C/C++
     "files.associations": {
         "*.h": "c"
     },
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c99",
     // Git
     "git.enableSmartCommit": false,
     "git.autofetch": true,
