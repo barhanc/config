@@ -13,7 +13,7 @@
         "λ": true,  "Λ": true, "μ": true, "ν": false, "ξ": true, "Ξ": true, "ο": false, "π": true, 
         "ϖ": true,  "Π": true, "ρ": true, "ϱ": true,  "σ": true, "Σ": true, "ς": true,  "τ": true, 
         "υ": false, "ϕ": true, "φ": true, "Φ": true,  "χ": true, "ψ": true, "Ψ": true,  "ω": true,
-        "Ω": true,
+        "Ω": true,  "𝔼": true,
     },
     "editor.formatOnSave": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -82,5 +82,9 @@
     ],
     "jupyter.askForKernelRestart": false,
     "workbench.iconTheme": "material-icon-theme",
-    "chat.commandCenter.enabled": false,    
+    "chat.commandCenter.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "workbench.editorAssociations": {   
+        "*.md": "vscode.markdown.preview.editor",
+    }
 }
