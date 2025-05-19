@@ -25,6 +25,8 @@
     },
     "editor.quickSuggestionsDelay": 0,
     "editor.minimap.autohide": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "extensions.ignoreRecommendations": true,
     // Python
     "black-formatter.args": [
         "--line-length",
@@ -62,22 +64,8 @@
         "terminal.ansiWhite": "#d0d0d0",
         "terminal.ansiBrightWhite": "#f5f5f5",
     },
-    "extensions.ignoreRecommendations": true,
-    "terminal.integrated.gpuAcceleration": "on",
-    "jupyter.interactiveWindow.creationMode": "perFile",
-    "git.ignoreRebaseWarning": true,
-    "remote.autoForwardPortsSource": "hybrid",
-    "jupyter.widgetScriptSources": [
-        "jsdelivr.com",
-        "unpkg.com"
-    ],
-    "jupyter.askForKernelRestart": false,
+    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
-    "chat.commandCenter.enabled": false,
-    "githubPullRequests.createOnPublishBranch": "never",
-    "workbench.editorAssociations": {   
-        "*.md": "vscode.markdown.preview.editor",
-    },
-    "jupyter.themeMatplotlibPlots": true,
-    "workbench.colorTheme": "Default Dark+"
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "remote.autoForwardPortsSource": "hybrid",
 }
