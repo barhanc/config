@@ -3,6 +3,7 @@
     "editor.rulers": [
         100,
     ],
+    "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "rewrap.wrappingColumn": 100,
     "editor.fontLigatures": true,
@@ -24,13 +25,13 @@
         "strings": false
     },
     "editor.quickSuggestionsDelay": 0,
-    "editor.minimap.autohide": true,
+    "editor.minimap.autohide": "mouseover",
     "terminal.integrated.gpuAcceleration": "on",
     "extensions.ignoreRecommendations": true,
     // Python
     "black-formatter.args": [
         "--line-length",
-        "119"
+        "100"
     ],
     // C/C++
     "files.associations": {
@@ -64,8 +65,8 @@
         "terminal.ansiWhite": "#d0d0d0",
         "terminal.ansiBrightWhite": "#f5f5f5",
     },
-    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
     "jupyter.interactiveWindow.creationMode": "perFile",
     "remote.autoForwardPortsSource": "hybrid",
+    "python.analysis.typeCheckingMode": "standard",
 }
