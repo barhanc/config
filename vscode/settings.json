@@ -31,7 +31,7 @@
     // Python
     "black-formatter.args": [
         "--line-length",
-        "100"
+        "119"
     ],
     // C/C++
     "files.associations": {
@@ -39,7 +39,6 @@
     },
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c99",
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4, ColumnLimit: 119}",
     // Git
     "git.enableSmartCommit": false,
     "git.autofetch": true,
@@ -69,4 +68,5 @@
     "jupyter.interactiveWindow.creationMode": "perFile",
     "remote.autoForwardPortsSource": "hybrid",
     "python.analysis.typeCheckingMode": "standard",
+    "window.confirmBeforeClose": "keyboardOnly",
 }
